@@ -1,0 +1,36 @@
+{
+  "name": "food-ordering-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^9.2.0",
+    "axios": "^1.6.0",
+    "formidable": "^3.5.4",
+    "js-cookie": "^3.0.5",
+    "next": "^15.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.5.2",
+    "stripe": "^22.0.1"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
